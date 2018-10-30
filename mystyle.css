@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700');
+<style type="text/css">@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,700');
 
 $white: #fff;
 $black: #2e2e2e;
@@ -170,4 +170,4 @@ footer {
     display: block;
     padding: 1rem 0;
   }
-}
+}</style>
