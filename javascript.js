@@ -1,4 +1,4 @@
-<script>const imgContent = document.querySelectorAll('.img-content-hover');
+const imgContent = document.querySelectorAll('.img-content-hover');
 
 function showImgContent(e) {
   for(var i = 0; i < imgContent.length; i++) {
@@ -8,4 +8,3 @@ function showImgContent(e) {
 };
 
 document.addEventListener('mousemove', showImgContent);
-</script>

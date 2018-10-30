@@ -1,5 +1,6 @@
 <head>
 <link rel="stylesheet" type="text/css" href="mystyle.css">
+<script src="javascript.js"></script>
 </head>
 
 <nav>
@@ -115,15 +116,3 @@
     </div>
   </div>
 </footer>
-
-<script>const imgContent = document.querySelectorAll('.img-content-hover');
-
-function showImgContent(e) {
-  for(var i = 0; i < imgContent.length; i++) {
-    imgContent[i].style.left = e.pageX + 'px';
-    imgContent[i].style.top = e.pageY + 'px';
-  }
-};
-
-document.addEventListener('mousemove', showImgContent);
-</script>
